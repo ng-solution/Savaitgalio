@@ -6,8 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            for (char c='A'; c<='Z'; c++)
-            Console.WriteLine(c);
+            string vardas = Environment.UserName;
+            for (int i=0; i<100; i++)
+            Console.WriteLine(vardas);
         }
     }
 }
